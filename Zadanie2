@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[])
+    {
+        int num1;
+        int num2;
+        int num3;
+        System.out.print("Wpisz dowolne trzy liczby: ");
+
+        Scanner input = new Scanner(System.in);
+        num1 = input.nextInt();
+        num2 = input.nextInt();
+        num3 = input.nextInt();
+
+        System.out.println("Najmniejsza z Twoich podanych liczb to: " + Math.min(num1,Math.min(num2,num3)));
+    }
+}
