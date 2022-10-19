@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[])
+    {
+        int num;
+        System.out.print("Wpisz ilość sprzedanych sztuk towaru w danym okresie rozliczeniowym: ");
+        Scanner input = new Scanner(System.in);
+        num = input.nextInt();
+
+        if (num > 50) {
+            System.out.println("Zarobiłeś " +num*30 +"zł");
+            } else {
+            System.out.println("Zarobiłeś " +num*20 +"zł");
+        }
+
+
+
+    }
+}
