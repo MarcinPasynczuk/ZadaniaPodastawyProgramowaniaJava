@@ -1,0 +1,56 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[])
+    {
+        int num1;
+        int num2;
+        int num3;
+        System.out.print("Wpisz dowolne trzy liczby: ");
+
+        Scanner input = new Scanner(System.in);
+        num1 = input.nextInt();
+        num2 = input.nextInt();
+        num3 = input.nextInt();
+
+        int minimum = 0;
+        if(num1 < num2){
+            minimum = num1;
+        }else{
+            minimum = num2;
+        }
+        if(num3<minimum){
+            minimum = num3;
+        }
+
+        int max = 0;
+        if(num1 > num2){
+            max = num1;
+        }else{
+            max = num2;
+        }
+        if(num3 > max){
+            max = num3;
+        }
+
+        int half = 0;
+        if((num1 > num2 && num1 <num3) || (num1 < num2 && num1 >num3)){
+            half = num1;
+        }else{
+    half = num2;
+}
+        if((half > num3) && (half <num1) || (half < num3 && half >num1)){
+            half = num2;
+        }else{
+            half = num3;
+        }
+
+
+
+        System.out.println("Kolejność tych liczb to: ");
+        System.out.println(minimum);
+        System.out.println(half);
+        System.out.println(max);
+        System.out.println();
+    }
+}
