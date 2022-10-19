@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[])
+    {
+        int num1;
+        int num2;
+        int num3;
+        System.out.print("Wpisz dowolne trzy liczby: ");
+
+        Scanner input = new Scanner(System.in);
+        num1 = input.nextInt();
+        num2 = input.nextInt();
+        num3 = input.nextInt();
+
+        int minimum = 0;
+        if(num1 < num2){
+            minimum = num1;
+        }else{
+            minimum = num2;
+        }
+        if(num3<minimum){
+            minimum = num3;
+        }
+
+
+
+        System.out.println("Najmniejsza z Twoich podanych liczb to: ");
+        System.out.println(minimum);
+        System.out.println();
