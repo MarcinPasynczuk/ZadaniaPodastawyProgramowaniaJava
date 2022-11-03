@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[]) {
+        System.out.print("Wpisz liczbę całkowitą aby obliczyć sumę liczb całkowitych od 1 do Twojej.");
+
+        Scanner input = new Scanner(System.in);
+        int i = input.nextInt();
+
+        int number=i;
+        int number2 = 0;
+
+        do {
+            number2 = number2 + number--;
+
+            System.out.println(number2);
+                   }
+        while (number>0);
+    }
+}

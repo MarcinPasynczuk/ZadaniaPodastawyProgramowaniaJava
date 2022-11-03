@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[])
+    {
+        System.out.print("Podaj hasło: ");
+        Scanner sc = new Scanner(System.in);
+        String input;
+        input = sc.nextLine();
+        String num2 = "123";
+        System.out.print(input);
+        System.out.print(num2);
+
+
+        if (input.equals(num2)) {
+            System.out.print("Hasło prawidlowe");
+        } else {
+            System.out.print("Hasło nieprawidłowe.");
+        }
+
+    }
+}

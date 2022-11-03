@@ -1,0 +1,41 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[]) {
+        System.out.print("4. Wczytać liczbę całkowitą i sprawdzić czy jest ona liczbą pierwszą, złożoną czy jedynką. ");
+        Scanner input = new Scanner(System.in);
+        int i = input.nextInt();
+
+
+        int number;
+        int number2 = 0;
+        int number3 = 0;
+
+        for(number=i;number>0;number--) {
+            if (i%number==0) {
+                number3++;
+                }
+                if (number<1) break;
+            }
+        if (i==1) {
+            System.out.println("Ta liczba to jeden.");
+
+
+        }
+        else if (number3==2) {
+            System.out.println("Ta liczba jest liczbą pierwszą.");
+
+
+        }
+        else {
+            System.out.println("Ta liczba jest liczbą złożoną.");
+
+
+        }
+
+        }
+
+
+
+
+        }

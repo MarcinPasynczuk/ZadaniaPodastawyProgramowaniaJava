@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Exercise {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int highest = Integer.MIN_VALUE;
+
+        System.out.print("Enter a number:");
+        for (int i = 0; i < 10; i++) {
+            int current = sc.nextInt();
+
+
+        if (current > highest) {
+            highest = current;
+        }
+
+    }
+        System.out.println("Highest number is: " + highest);
+    }}

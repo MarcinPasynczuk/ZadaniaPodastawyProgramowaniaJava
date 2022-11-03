@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[]) {
+        int i = 1;
+        System.out.print("Wpisz liczbę od której program zacznie wypisywać liczby do 1000. ");
+
+        Scanner input = new Scanner(System.in);
+        i = input.nextInt();
+
+
+        if (i <= 1000) {
+            do {
+                System.out.println(i);
+                i++;
+            }
+            while (i <= 1000);
+        } else {
+            System.out.println("Liczba jest za duża.");
+
+
+        }
+    }}
