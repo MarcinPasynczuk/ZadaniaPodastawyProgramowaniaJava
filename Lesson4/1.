@@ -1,1 +1,19 @@
+import java.util.Scanner;
+public class Exercise {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Enter 10 digits: ");
+        int[] tab1=new int[10];
+
+        for(int i=0;i<tab1.length;i++) {
+            tab1[i] = sc.nextInt();
+        }
+
+
+        for(int j=9;j>=0.;j--){
+        System.out.println(tab1[j]);
+        }
+        }
+        }
 
