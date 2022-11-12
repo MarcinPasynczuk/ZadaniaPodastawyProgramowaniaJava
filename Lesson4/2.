@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Exercise {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Enter 10 digits: ");
+        int[] tab1=new int[10];
+
+        for(int i=0;i<tab1.length;i++) {
+            tab1[i] = sc.nextInt();
+        }
+
+int higher = 0;
+        for(int j=0;j<10.;j++){
+
+            if (higher < tab1[j])
+            {
+                higher = tab1[j];
+            }
+
+
+            }
+        System.out.println(higher);
+
+        }
+
+        }
