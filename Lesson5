@@ -1,0 +1,21 @@
+public class Exercise {
+    public static void main(String[] args)
+    {
+      int[] arr1={1,2,3,4,-1,7};
+        int[] arr2={3,8,2,1,9};
+        System.out.println(min(arr1));
+
+    }
+
+
+
+        public static int min(int[] tab){
+        int min =tab[0];
+        for (int i=1;i<tab.length;i++){
+    if(tab[i]<min) {
+        min = tab[i];
+    }
+            }
+            return min;
+                }
+}
