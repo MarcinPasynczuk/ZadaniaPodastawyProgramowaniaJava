@@ -64,9 +64,9 @@ public class Metody {
     }
     public static int ileWspolnych(int[] arr1, int[] arr2) {
         int checker = 0;
-        for (int i = 0; i<6;i++){
+        for (int i = 0; i< arr1.length;i++){
 
-            for (int j = 0; j<6;j++){
+            for (int j = 0; j<arr2.length;j++){
                 if (arr1[i] == arr2[j]){
                     checker++;
                 }
