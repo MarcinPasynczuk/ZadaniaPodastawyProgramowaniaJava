@@ -1,3 +1,3 @@
 # ZadaniaPodastawyProgramowaniaJava
 Odpowiedzi do zadań.
-Exercies Java and my solutions.
+Java Exercies from Uni lessons and my solutions.
