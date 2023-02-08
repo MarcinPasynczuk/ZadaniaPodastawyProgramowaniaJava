@@ -1,0 +1,7 @@
+Liczba firm z Asia: 99
+Najwięcej firm jest w: 162
+Liczba firm z Danii: 5
+Liczba firm z Danii: [2F31EddF2Db9aAE, f58be3967e3FA62, a7D5585Efe783de, c7E8Caa3fe0ea9C, 0052ABdaff57DaC]
+Suma pracowników firm z Danii: 23814
+Liczba firm, które mają stronę internetową w domenie .net: 73
+Średnia liczba pracowników firm założonych przed 1980 rokiem: 4601
